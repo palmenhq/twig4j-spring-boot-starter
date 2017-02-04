@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=org.twig4j.spring.boot.Twig4jAutoConfiguration
+
+org.springframework.boot.autoconfigure.template.TemplateAvailabilityProvider=org.twig4j.spring.boot.Twig4jTemplateAvailabilityProvider

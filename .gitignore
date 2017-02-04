@@ -1,0 +1,10 @@
+# Local files
+/.idea/
+.DS_Store
+
+# Test coverage
+/coverage/
+
+# Builds
+/build/
+/.gradle/
