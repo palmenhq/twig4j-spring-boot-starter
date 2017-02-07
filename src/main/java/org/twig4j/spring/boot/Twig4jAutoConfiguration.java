@@ -44,15 +44,10 @@ public class Twig4jAutoConfiguration extends WebMvcConfigurerAdapter {
         Environment environment = new Environment(new ChainLoader(Arrays.asList(fsLoader, resourceLoader)));
         environment
             .disableDebug()
-            .disableStrictTypes()
             .disableStrictVariables();
 
         if (properties.getDebug()) {
             environment.enableDebug();
-        }
-
-        if (properties.getStrictTypes()) {
-            environment.enableStrictTypes();
         }
 
         if (properties.getStrictVariables()) {
